@@ -23,8 +23,6 @@
       {
         "appID": "25R9Y33D8D.gcc.letoile.test",
         "paths": [
-          "/",
-          "/*",
           "/home",
           "/m-home",
           "/brand/*",
