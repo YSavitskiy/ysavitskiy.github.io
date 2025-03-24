@@ -24,9 +24,8 @@
         "appID": "25R9Y33D8D.gcc.letoile.test",
 "components": [
                {
-                  "#": "no_universal_links",
-                  "exclude": true,
-                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                  "/": "/*",
+                  "comment": "Matches all URL"
                },
                {
                   "/": "/buy/*",
