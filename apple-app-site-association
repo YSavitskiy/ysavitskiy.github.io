@@ -4,44 +4,11 @@
     "details": [
       {
         "appID": "25R9Y33D8D.com.letoile.prod",
-        "paths": [
-          "/",
-          "/*",
-          "/home",
-          "/m-home",
-          "/brand/*",
-          "/brands",
-          "/product/*",
-          "/help",
-          "/about",
-	        "/cart",
-          "/m-cart",
-          "/m-catalog",
-          "/main-menu"
-        ]
+        "paths": ["*"]
       },
       {
         "appID": "25R9Y33D8D.gcc.letoile.test",
-"components": [
-               {
-                  "/": "/*",
-                  "comment": "Matches all URL"
-               },
-               {
-                  "/": "/buy/*",
-                  "comment": "Matches any URL with a path that starts with /buy/."
-               },
-               {
-                  "/": "/help/website/*",
-                  "exclude": true,
-                  "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
-               },
-               {
-                  "/": "/help/*",
-                  "?": { "articleNumber": "????" },
-                  "comment": "Matches any URL with a path that starts with /help/ and that has a query item with name 'articleNumber' and a value of exactly four characters."
-               }
-             ]        
+        "paths": ["*"]
       }
     ]
   },
